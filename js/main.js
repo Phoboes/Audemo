@@ -1,10 +1,4 @@
-
-let SpeechRecognition = SpeechRecognition || webkitSpeechRecognition
-let SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList
-let SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEvent
-
-
-let output, capture, recognition, speechRecognitionList;
+let output, capture, recognition, speechRecognitionList, SpeechRecognition, SpeechGrammarList, SpeechRecognitionEvent;
 
 const matches = {
   positive: ["yes", "yeah", "right"],
