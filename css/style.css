@@ -1,0 +1,6 @@
+.container {
+  width: 300px;
+  border: 1px solid gainsboro;
+  margin: auto;
+  text-align: center;
+}
