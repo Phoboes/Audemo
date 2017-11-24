@@ -1,7 +1,7 @@
 
-const SpeechRecognition = SpeechRecognition || webkitSpeechRecognition
-const SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList
-const SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEvent
+let SpeechRecognition = SpeechRecognition || webkitSpeechRecognition
+let SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList
+let SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEvent
 
 
 let output, capture, recognition, speechRecognitionList;
