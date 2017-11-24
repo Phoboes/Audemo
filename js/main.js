@@ -14,6 +14,11 @@ const matches = {
 // var grammar = '#JSGF V1.0; grammar triggerWords; public <triggerWords> = ' + triggerWords.join(' | ') + ' ;'
 
 window.onload = function() {
+
+  SpeechRecognition = SpeechRecognition || webkitSpeechRecognition
+  SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList
+  SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEvent
+
   output = document.querySelector('.result');
   capture = document.querySelector('.speech');
 
